@@ -17,7 +17,7 @@ public class AI {
     }
 
 
-    public Step doMove(Step step) throws AIException{
+    public Movement doMove(Movement step) throws AIException{
 
 
         switch (difficulty){

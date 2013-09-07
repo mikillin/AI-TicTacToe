@@ -5,5 +5,5 @@ package org.hexlet.gamexo.ai;
  * Date: 07.09.13
  * Time: 15:32
  */
-public class Game {
+public class QuickTestAI {
 }
