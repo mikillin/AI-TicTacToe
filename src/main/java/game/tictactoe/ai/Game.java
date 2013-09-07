@@ -1,4 +1,4 @@
-package AITicTacToe;
+package game.tictactoe.ai;
 
 /**
  * User: S.Rogachevsky
