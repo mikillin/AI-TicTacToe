@@ -1,4 +1,4 @@
-package game.tictactoe.ai;
+package org.hexlet.gamexo.ai;
 
 /**
  * User: S.Rogachevsky
@@ -17,9 +17,16 @@ public class AI {
     }
 
 
-    public void doMove(Step step){
+    public Step doMove(Step step) throws AIException{
 
 
+        switch (difficulty){
+            case EASY: break;
+            case MEDIUM: break;
+            case HARD: break;
+            default: throw new AIException("Incorrect difficulty level");
+        }
+      return null;
     }
 
 }

@@ -1,4 +1,4 @@
-package game.tictactoe.ai;
+package org.hexlet.gamexo.ai;
 
 /**
  * User: S.Rogachevsky
