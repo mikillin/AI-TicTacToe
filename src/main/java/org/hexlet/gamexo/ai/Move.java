@@ -5,12 +5,12 @@ package org.hexlet.gamexo.ai;
  * Date: 07.09.13
  * Time: 15:37
  */
-public class Movement {
+public class Move {
     private int x;
     private int y;
 
 
-    public Movement(int x, int y){
+    public Move(int x, int y){
         this.x = x;
         this.y = y;
 
