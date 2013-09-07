@@ -6,5 +6,5 @@ package org.hexlet.gamexo.ai;
  * Time: 16:56
  */
 public interface IPlayerAI{
-    public Move doMove() throws AIException;
+    public Move doMove(char[][] matrix) throws AIException;
 }
