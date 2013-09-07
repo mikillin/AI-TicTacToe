@@ -11,7 +11,6 @@ import java.util.Random;
  */
 public class PlayerAI implements IPlayerAI {
     private Difficulty difficulty;
-    private int amountVictoryMoves;
     private CellState calculatingMoveSign;
     private CellInfo[][] gameField;
 
@@ -19,12 +18,9 @@ public class PlayerAI implements IPlayerAI {
      * Initializing constructor
      *
      * @param difficulty         - level of game difficulty
-     * @param amountVictoryMoves - amount signs in a row to win
      */
-    public PlayerAI(Difficulty difficulty, int amountVictoryMoves) {
+    public PlayerAI(Difficulty difficulty) {
         this.difficulty = difficulty;
-        this.amountVictoryMoves = amountVictoryMoves;
-
     }
 
 
@@ -63,14 +59,6 @@ public class PlayerAI implements IPlayerAI {
 
     public void setDifficulty(Difficulty difficulty) {
         this.difficulty = difficulty;
-    }
-
-    public int getAmountVictoryMoves() {
-        return amountVictoryMoves;
-    }
-
-    public void setAmountVictoryMoves(int amountVictoryMoves) {
-        this.amountVictoryMoves = amountVictoryMoves;
     }
 
     public CellState getCalculatingMoveSign() {
