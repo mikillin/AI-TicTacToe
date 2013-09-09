@@ -1,4 +1,4 @@
-package org.hexlet.gamexo.ai;
+package main.java;
 
 public class CellInfo {
     public final int X;
@@ -10,7 +10,6 @@ public class CellInfo {
         Y = y;
         figure = cellState;
     }
-
 
     public CellState getFigure() {
         return figure;

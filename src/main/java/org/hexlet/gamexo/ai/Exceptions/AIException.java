@@ -1,4 +1,4 @@
-package org.hexlet.gamexo.ai;
+package main.java.org.hexlet.gamexo.ai.Exceptions;
 
 /**
  * User: S.Rogachevsky
