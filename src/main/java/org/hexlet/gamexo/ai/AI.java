@@ -1,4 +1,4 @@
-package main.java.org.hexlet.gamexo.ai;
+package org.hexlet.gamexo.ai;
 
 import java.util.ArrayList;
 import java.util.List;
