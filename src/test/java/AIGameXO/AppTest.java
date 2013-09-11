@@ -1,4 +1,4 @@
-package AIGameXO;
+package test.java.AIGameXO;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
