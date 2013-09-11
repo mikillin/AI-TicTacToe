@@ -1,12 +1,14 @@
-package org.hexlet.gamexo.ai;
+package main.java.org.hexlet.gamexo.ai;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import main.java.org.hexlet.gamexo.field.*;
 
 /**
  * Date: 09.09.13
  * Time: 14:25
+ * Класс, реализуюший логику работы ИИ
  */
 public class AI {
     private Difficulty difficulty;
@@ -36,7 +38,7 @@ public class AI {
      * @return - move from AI
      * @throws AIException - exception of wrong difficulty level
      */
-    public CellInfo calculatingMove(CellInfo[][] gameField) throws AIException {
+    public CellInfo calculatingMove(Field gameField) throws AIException {
         switch (difficulty) {
             case EASY:
                 return getEasyMove();
